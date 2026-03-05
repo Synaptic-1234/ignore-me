@@ -1,7 +1,7 @@
 Meta.DisplayName=Minecraft Legacy Console Server
 Meta.Description=MCLCE Dedicated Server
 Meta.Arch=x86_64
-Meta.Author=Synaptic-1234 - Made with AMP Config Generator
+Meta.Author=Synaptic-1234
 Meta.URL=
 Meta.MinAMPVersion=2.4.6.6
 Meta.SpecificDockerImage=cubecoders/ampbase:xvfb
