@@ -1,7 +1,7 @@
 [
     {
         "ConfigFile": "server.properties",
-        "ConfigType": "",
-        "AutoMap": false
+        "ConfigType": "kvp",
+        "AutoMap": true
     }
 ]
