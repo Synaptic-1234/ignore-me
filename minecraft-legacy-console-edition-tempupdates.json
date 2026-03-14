@@ -1,1 +1,12 @@
-[]
+[
+    {
+        "UpdateStageName": "Download Game Data",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://github.com/kuwacom/Minecraft-LegacyConsoleEdition/releases/download/nightly-dedicated-server/LCEServerWindows64.zip",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": true,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    }
+]
