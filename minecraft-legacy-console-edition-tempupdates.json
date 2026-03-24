@@ -8,5 +8,15 @@
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
         "OneShot": true
+    },
+    {
+        "UpdateStageName": "Download Linux Start",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://raw.githubusercontent.com/Synaptic-1234/ignore-me/refs/heads/usebuiltinscript/start.sh",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": true,
+        "DeleteAfterExtract": true,
+        "OneShot": true
     }
 ]
