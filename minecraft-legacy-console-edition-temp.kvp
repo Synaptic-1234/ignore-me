@@ -5,6 +5,7 @@ Meta.Author=Synaptic-1234
 Meta.URL=
 Meta.MinAMPVersion=2.4.6.6
 Meta.DockerRequired=False
+Meta.SpecificDockerImage=cubecoders/ampbase:xvfb
 Meta.ContainerPolicy=NoPreference
 Meta.Prerequsites=[]
 Meta.EndpointURIFormat={ip}:{GenericModule.App.Ports.GamePort1}
