@@ -73,7 +73,7 @@
 			  "0": "Survival",
 			  "1": "Creative"
 			},
-			"DefaultValue": "Survival"
+			"DefaultValue": "0"
 		},
 		{
 			"DisplayName": "Gamertags",
