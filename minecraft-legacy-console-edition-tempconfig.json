@@ -113,8 +113,8 @@
 			"ParamFieldName": "lan-advertise",
 			"InputType": "checkbox",
 			"EnumValues": {
-			  "false": "Enabled",
-			  "true": "Disabled"
+			  "false": "0",
+			  "true": "1"
 			},
 			"DefaultValue": "false"
 		}
