@@ -62,6 +62,33 @@
 			"DefaultValue": "classic"
 		},
 		{
+			"DisplayName": "Gamemode",
+			"Description": "Choose a gamemode",
+			"FieldName": "gamemode",
+			"Category": "Settings",
+			"ParamFieldName": "gamemode",
+			"IncludeInCommandLine": false,
+			"InputType": "enum",
+			"EnumValues": {
+			  "0": "Survival",
+			  "1": "Creative"
+			},
+			"DefaultValue": "Survival"
+		},
+		{
+			"DisplayName": "Gamertags",
+			"Description": "Changes if gamertags are visible",
+			"FieldName": "gamertags",
+			"Category": "Settings",
+			"ParamFieldName": "gamertags",
+			"InputType": "checkbox",
+			"EnumValues": {
+			  "false": "0",
+			  "true": "1"
+			},
+			"DefaultValue": "true"
+		},
+		{
 			"DisplayName": "Log Level",
 			"Description": "Server log verbosity",
 			"FieldName": "log-level",
@@ -115,5 +142,161 @@
 			  "true": "1"
 			},
 			"DefaultValue": "false"
+		},
+		{
+			"DisplayName": "Allow Flight",
+			"Description": "Allow cheats to fly",
+			"FieldName": "allow-flight",
+			"Category": "Settings",
+			"ParamFieldName": "allow-flight",
+			"InputType": "checkbox",
+			"EnumValues": {
+			  "false": "0",
+			  "true": "1"
+			},
+			"DefaultValue": "false"
+		},
+		{
+			"DisplayName": "Allow Nether",
+			"Description": "Allow players to enter the nether",
+			"FieldName": "allow-nether",
+			"Category": "Settings",
+			"ParamFieldName": "allow-nether",
+			"InputType": "checkbox",
+			"EnumValues": {
+			  "false": "0",
+			  "true": "1"
+			},
+			"DefaultValue": "true"
+		},
+		{
+			"DisplayName": "Bedrock fog",
+			"Description": "Enables bedrock fog",
+			"FieldName": "bedrock-fog",
+			"Category": "qol",
+			"ParamFieldName": "bedrock-fog",
+			"InputType": "checkbox",
+			"EnumValues": {
+			  "false": "0",
+			  "true": "1"
+			},
+			"DefaultValue": "true"
+		},
+		{
+			"DisplayName": "Bonus Chest",
+			"Description": "Spawns bonus chest",
+			"FieldName": "bonus-chest",
+			"Category": "qol",
+			"ParamFieldName": "bonus-chest",
+			"InputType": "checkbox",
+			"EnumValues": {
+			  "false": "0",
+			  "true": "1"
+			},
+			"DefaultValue": "false"
+		},
+		{
+			"DisplayName": "Daylight Cycle",
+			"Description": "Allows time to pass",
+			"FieldName": "bonus-chest",
+			"Category": "World Options",
+			"ParamFieldName": "bonus-chest",
+			"InputType": "checkbox",
+			"EnumValues": {
+			  "false": "0",
+			  "true": "1"
+			},
+			"DefaultValue": "true"
+		},
+		{
+			"DisplayName": "Mob Drops",
+			"Description": "Changes if mobs drop loot",
+			"FieldName": "do-mob-loot",
+			"Category": "World Options",
+			"ParamFieldName": "do-mob-loot",
+			"InputType": "checkbox",
+			"EnumValues": {
+			  "false": "0",
+			  "true": "1"
+			},
+			"DefaultValue": "true"
+		},
+		{
+			"DisplayName": "Mob Spawning",
+			"Description": "Changes if mobs spawn",
+			"FieldName": "do-mob-spawning",
+			"Category": "World Options",
+			"ParamFieldName": "do-mob-spawning",
+			"InputType": "checkbox",
+			"EnumValues": {
+			  "false": "0",
+			  "true": "1"
+			},
+			"DefaultValue": "true"
+		},
+		{
+			"DisplayName": "Block drops",
+			"Description": "Changes if blocks drop items",
+			"FieldName": "do-tile-drops",
+			"Category": "World Options",
+			"ParamFieldName": "do-tile-drops",
+			"InputType": "checkbox",
+			"EnumValues": {
+			  "false": "0",
+			  "true": "1"
+			},
+			"DefaultValue": "true"
+		},
+		{
+			"DisplayName": "Fire spread",
+			"Description": "Changes if fire spreads",
+			"FieldName": "fire-spreads",
+			"Category": "World Options",
+			"ParamFieldName": "fire-spreads",
+			"InputType": "checkbox",
+			"EnumValues": {
+			  "false": "0",
+			  "true": "1"
+			},
+			"DefaultValue": "true"
+		},
+		{
+			"DisplayName": "Generate Structures",
+			"Description": "Changes if structures generate",
+			"FieldName": "generate-structures",
+			"Category": "World Options",
+			"ParamFieldName": "generate-structures",
+			"InputType": "checkbox",
+			"EnumValues": {
+			  "false": "0",
+			  "true": "1"
+			},
+			"DefaultValue": "true"
+		},
+		{
+			"DisplayName": "Keep Inventory",
+			"Description": "Changes if keep inventory is enabled",
+			"FieldName": "keep-inventory",
+			"Category": "qol",
+			"ParamFieldName": "keep-inventory",
+			"InputType": "checkbox",
+			"EnumValues": {
+			  "false": "0",
+			  "true": "1"
+			},
+			"DefaultValue": "false"
+		},
+		{
+			"DisplayName": "Max Build Height",
+			"Description": "Maximum build height",
+			"FieldName": "max-players",
+			"InputType": "numeric",
+			"Category": "Settings", 
+			"IncludeInCommandLine": false,	
+			"ParamFieldName": "max-players",	
+      		"minValue":"1",
+      		"maxValue":"10000",
+			"Hidden": false,
+			"DefaultValue": "256"
 		}
 ]
