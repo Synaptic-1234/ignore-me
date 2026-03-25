@@ -1,1 +1,121 @@
-[]
+[
+		{
+			"DisplayName": "Server Name",
+			"Description": "The servers name",
+			"FieldName": "server-name",
+			"InputType": "text",
+			"Category": "Settings", 
+			"IncludeInCommandLine": false,	
+			"ParamFieldName": "server-name",	
+			"Hidden": false,
+			"DefaultValue": "DedicatedServer"
+		},
+		{
+			"DisplayName": "World Name",
+			"Description": "Level name",
+			"FieldName": "level-name",
+			"InputType": "text",
+			"Category": "Settings", 
+			"IncludeInCommandLine": false,	
+			"ParamFieldName": "level-name",	
+			"Hidden": false,
+			"DefaultValue": "world"
+		},
+		{
+			"DisplayName": "Max Players",
+			"Description": "Maximum number of players",
+			"FieldName": "max-players",
+			"InputType": "numeric",
+			"Category": "Settings", 
+			"IncludeInCommandLine": false,	
+			"ParamFieldName": "max-players",	
+      "minValue":"1",
+      "maxValue":"32",
+			"Hidden": false,
+			"DefaultValue": "8"
+		},
+		{
+			"DisplayName": "World Seed",
+			"Description": "level seed",
+			"FieldName": "level-seed",
+			"InputType": "numeric",
+			"Category": "Settings", 
+			"IncludeInCommandLine": false,	
+			"ParamFieldName": "level-seed",	
+      "minValue":"−9223372036854775808",
+      "maxValue":"9223372036854775807",
+			"Hidden": false,
+			"DefaultValue": ""
+		},
+		{
+			"DisplayName": "World Size",
+			"Description": "Choose a world size",
+			"FieldName": "world-size",
+			"Category": "Settings",
+			"ParamFieldName": "world-size",
+			"IncludeInCommandLine": false,
+			"InputType": "enum",
+			"EnumValues": {
+			  "classic": "Classic",
+			  "small": "Small",
+			  "medium": "Medium",
+			  "large": "Large"
+			},
+			"DefaultValue": "classic"
+		},
+		{
+			"DisplayName": "Log Level",
+			"Description": "Server log verbosity",
+			"FieldName": "log-level",
+			"Category": "Settings",
+			"ParamFieldName": "log-level",
+			"IncludeInCommandLine": false,
+			"InputType": "enum",
+			"EnumValues": {
+			  "debug": "debug",
+			  "info": "info",
+			  "warn": "warn",
+			  "error": "error"
+			},
+			"DefaultValue": "info"
+		},
+		{
+			"DisplayName": "Autosave Interval",
+			"Description": "Seconds between autosaves",
+			"FieldName": "autosave-interval",
+			"InputType": "numeric",
+			"Category": "Settings", 
+			"IncludeInCommandLine": false,	
+			"ParamFieldName": "autosave-interval",	
+      "minValue":"5",
+      "maxValue":"3600",
+			"Hidden": false,
+			"DefaultValue": "300"
+		},
+		{
+			"DisplayName": "Whitelist",
+			"Description": "Enable access list checks",
+			"FieldName": "white-list",
+			"Category": "Settings",
+			"ParamFieldName": "white-list",
+			"InputType": "checkbox",
+			"EnumValues": {
+			  "false": "Enabled",
+			  "true": "Disabled"
+			},
+			"DefaultValue": "false"
+		},
+		{
+			"DisplayName": "Lan Advertise",
+			"Description": "LAN session advertisement",
+			"FieldName": "lan-advertise",
+			"Category": "Settings",
+			"ParamFieldName": "lan-advertise",
+			"InputType": "checkbox",
+			"EnumValues": {
+			  "false": "Enabled",
+			  "true": "Disabled"
+			},
+			"DefaultValue": "false"
+		}
+]
