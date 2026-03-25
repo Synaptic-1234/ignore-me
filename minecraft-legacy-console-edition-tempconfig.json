@@ -29,8 +29,8 @@
 			"Category": "Settings", 
 			"IncludeInCommandLine": false,	
 			"ParamFieldName": "max-players",	
-      "minValue":"1",
-      "maxValue":"32",
+      		"minValue":"1",
+      		"maxValue":"32",
 			"Hidden": false,
 			"DefaultValue": "8"
 		},
@@ -42,10 +42,10 @@
 			"Category": "Settings", 
 			"IncludeInCommandLine": false,	
 			"ParamFieldName": "level-seed",	
-      "minValue":"−9223372036854775808",
-      "maxValue":"9223372036854775807",
+      		"minValue":"−9223372036854775808",
+      		"maxValue":"9223372036854775807",
 			"Hidden": false,
-			"DefaultValue": ""
+			"DefaultValue": "0"
 		},
 		{
 			"DisplayName": "World Size",
