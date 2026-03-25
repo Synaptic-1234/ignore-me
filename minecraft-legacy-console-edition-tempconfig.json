@@ -41,9 +41,7 @@
 			"InputType": "numeric",
 			"Category": "Settings", 
 			"IncludeInCommandLine": false,	
-			"ParamFieldName": "level-seed",	
-      		"minValue":"−9223372036854775808",
-      		"maxValue":"9223372036854775807",
+			"ParamFieldName": "level-seed",
 			"Hidden": false,
 			"DefaultValue": "0"
 		},
